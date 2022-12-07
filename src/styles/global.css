@@ -1,0 +1,38 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 600px;
+  padding: 10px;
+  margin: 10px 0px;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+}
+
+.search-input {
+  transition: all 0.3s;
+  width: 300px;
+  padding: 10px 10px;
+  border: 1.5px solid #ededed;
+  border-radius: 4px;
+  outline: none;
+}
+
+.search-input:hover {
+  border: 1.5px solid rgba(146, 47, 216, 0.463);
+}
+
+.search-input:focus {
+  border: 1.5px solid rgb(146, 47, 216);
+}
+
+.search-input::placeholder {
+  color: #999;
+}
